@@ -1,0 +1,65 @@
+[
+    {
+        "TableName": "avaliacao",
+        "Item": {},
+        "ConditionExpression": "attribute_not_exists(#_id) and attribute_type(#_id, :S)",
+        "ExpressionAttributeValues": {
+            ":S": "S"
+        },
+        "ExpressionAttributeNames": {
+            "#_id": "_id"
+        }
+    },
+    {
+        "TableName": "carrinho",
+        "Item": {},
+        "ConditionExpression": "attribute_not_exists(#_id) and attribute_type(#_id, :S) and attribute_type(id_cliente, :S) and attribute_type(itens, :L) and attribute_type(ultima_atualizacao, :S)",
+        "ExpressionAttributeValues": {
+            ":S": "S",
+            ":L": "L"
+        },
+        "ExpressionAttributeNames": {
+            "#_id": "_id"
+        }
+    },
+    {
+        "TableName": "cliente",
+        "Item": {},
+        "ConditionExpression": "attribute_not_exists(#_id) and attribute_type(#_id, :S) and attribute_type(nome, :S) and attribute_type(email, :S) and attribute_type(telefone, :S) and attribute_type(enderecos, :L) and attribute_type(data_cadastro, :S)",
+        "ExpressionAttributeValues": {
+            ":S": "S",
+            ":L": "L"
+        },
+        "ExpressionAttributeNames": {
+            "#_id": "_id"
+        }
+    },
+    {
+        "TableName": "pedido",
+        "Item": {},
+        "ConditionExpression": "attribute_not_exists(#_id) and attribute_type(#_id, :S) and attribute_type(id_cliente, :S) and attribute_type(status_pedido, :S) and attribute_type(data_pedido, :S) and attribute_type(itens, :L) and attribute_type(endereco_entrega, :M) and attribute_type(endereco_entrega.logradouro, :S) and attribute_type(endereco_entrega.cidade, :S) and attribute_type(endereco_entrega.estado, :S) and attribute_type(endereco_entrega.cep, :S) and attribute_type(forma_pagamento, :M) and attribute_type(forma_pagamento.tipo, :S) and attribute_type(forma_pagamento.parcelas, :N) and attribute_type(valor_total, :N)",
+        "ExpressionAttributeValues": {
+            ":S": "S",
+            ":L": "L",
+            ":M": "M",
+            ":N": "N"
+        },
+        "ExpressionAttributeNames": {
+            "#_id": "_id"
+        }
+    },
+    {
+        "TableName": "produto",
+        "Item": {},
+        "ConditionExpression": "attribute_not_exists(#_id) and attribute_type(#_id, :S) and attribute_type(nome, :S) and attribute_type(descricao, :S) and attribute_type(preco, :N) and attribute_type(estoque, :N) and attribute_type(categorias, :L) and attribute_type(imagens, :L) and attribute_type(especificacoes, :M) and attribute_type(especificacoes.marca, :S) and attribute_type(especificacoes.modelo, :S) and attribute_type(especificacoes.garantia, :S) and attribute_type(data_cadastro, :S) and attribute_type(avaliacoes, :M) and attribute_type(avaliacoes.media, :N) and attribute_type(avaliacoes.quantidade, :N)",
+        "ExpressionAttributeValues": {
+            ":S": "S",
+            ":N": "N",
+            ":L": "L",
+            ":M": "M"
+        },
+        "ExpressionAttributeNames": {
+            "#_id": "_id"
+        }
+    }
+]

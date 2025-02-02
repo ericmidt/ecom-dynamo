@@ -1,0 +1,25 @@
+[
+    {
+        "_id": "dfc5a5b8-b13c-48bd-bb5b-47f5796d6aa9",
+        "nome": "Smartphone XYZ",
+        "descricao": "Smartphone com 128GB, 6GB RAM, câmera 48MP.",
+        "preco": 1999,
+        "estoque": 150,
+        "categorias": [
+            "eletrônicos"
+        ],
+        "imagens": [
+            "url_imagem1.jpg"
+        ],
+        "especificacoes": {
+            "marca": "MarcaX",
+            "modelo": "XYZ",
+            "garantia": "12 meses"
+        },
+        "data_cadastro": "2025-01-10T08:30:00Z",
+        "avaliacoes": {
+            "media": 4,
+            "quantidade": 125
+        }
+    }
+]
