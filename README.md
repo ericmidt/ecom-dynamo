@@ -3,11 +3,19 @@
 This project represents the last step of a **NoSQL data modeling** project for an e-commerce store. The primary focus of this phase is to insert predefined data into a local DynamoDB instance using Python scripts. This setup is part of a larger effort to design and implement a robust database structure capable of handling various e-commerce operations, including product reviews, customer information, and order details.
 
 ## Table of Contents
+- [Overview of `dynamodb_setup.py` Script](#overview-of-dynamodb_setuppy-script)
+- [Project Structure](#project-structure)
 - [Installation](#installation)
+   - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [DynamoDB Setup](#dynamodb-setup)
-- [Contributing](#contributing)
-- [License](#license)
+- [Script Functionalities](#script-functionalities)
+   - [Data Loading from JSON](#1-data-loading-from-json)
+   - [Insertion with Conditional Expressions](#2-insertion-with-conditional-expressions)
+   - [Logging of Results](#3-logging-of-results)
+   - [Error Handling](#4-error-handling)
+   - [Data Insertion Feedback](#5-data-insertion-feedback)
+   - [Example Output](#example-output)
 
 
 ## Overview of `dynamodb_setup.py` Script
