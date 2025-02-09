@@ -1,0 +1,18 @@
+[
+    {
+        "product_id": "dfc5a5b8-b13c-48bd-bb5b-47f5796d6aa9",
+        "_id": "review_1",
+        "client_id": "client_1",
+        "rating": 5,
+        "comment": "Excellent smartphone with great value for money!",
+        "review_date": "2025-02-02T16:45:00Z"
+    },
+    {
+        "product_id": "dfc5a5b8-b13c-48bd-bb5b-47f5796d6aa9",
+        "_id": "review_2",
+        "client_id": "client_2",
+        "rating": 4,
+        "comment": "Good smartphone!",
+        "review_date": "2025-02-02T16:45:00Z"
+    }
+]

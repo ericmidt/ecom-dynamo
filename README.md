@@ -38,11 +38,11 @@ ecommerce-dynamodb/
 ├── requirements.txt
 ├── src/
 │   ├── mock_data/
-│   │   ├── avaliacao.json
-│   │   ├── carrinho.json
-│   │   ├── cliente.json
-│   │   ├── pedido.json
-│   │   ├── produto.json
+│   │   ├── review.json
+│   │   ├── cart.json
+│   │   ├── client.json
+│   │   ├── order.json
+│   │   ├── product.json
 │   ├── condition_expression.json
 │   ├── create_table.json
 │   ├── dynamodb_setup.py

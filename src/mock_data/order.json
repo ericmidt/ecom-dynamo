@@ -1,0 +1,80 @@
+[
+    {
+        "_id": "e2375727-c278-4b4b-8cfe-b7bee13047f7",
+        "client_id": "client_1",
+        "order_status": "processing",
+        "order_date": "2025-02-01T14:20:00Z",
+        "items": [
+            {
+                "product_id": "dfc5a5b8-b13c-48bd-bb5b-47f5796d6aa9",
+                "product_name": "Smartphone XYZ",
+                "quantity": 1,
+                "unit_price": 1999,
+                "total_price": 1999
+            }
+        ],
+        "delivery_address": {
+            "street": "Street A, 123",
+            "city": "Sao Paulo",
+            "state": "SP",
+            "zip_code": "01000-000"
+        },
+        "payment_method": {
+            "type": "credit_card",
+            "installments": 3
+        },
+        "total_value": 2099
+    },
+    {
+        "_id": "2c5e37f7-f282-4e21-9106-4c21b37a8b90",
+        "client_id": "client_2",
+        "order_status": "processing",
+        "order_date": "2025-02-01T14:20:00Z",
+        "items": [
+            {
+                "product_id": "dfc5a5b8-b13c-48bd-bb5b-47f5796d6aa9",
+                "product_name": "Smartphone XYZ",
+                "quantity": 1,
+                "unit_price": 1999,
+                "total_price": 1999
+            }
+        ],
+        "delivery_address": {
+            "street": "Street A, 123",
+            "city": "Sao Paulo",
+            "state": "SP",
+            "zip_code": "01000-000"
+        },
+        "payment_method": {
+            "type": "credit_card",
+            "installments": 3
+        },
+        "total_value": 2099
+    },
+    {
+        "_id": "2019f87d-1dcd-4c7e-90d3-3a98e8d3e0ae",
+        "client_id": "client_1",
+        "order_status": "processing",
+        "order_date": "2025-02-01T14:20:00Z",
+        "items": [
+            {
+                "product_id": "dfc5a5b8-b13c-48bd-bb5b-47f5796d6aa9",
+                "product_name": "Smartphone XYZ",
+                "quantity": 1,
+                "unit_price": 1999,
+                "total_price": 1999
+            }
+        ],
+        "delivery_address": {
+            "street": "Street A, 123",
+            "city": "Sao Paulo",
+            "state": "SP",
+            "zip_code": "01000-000"
+        },
+        "payment_method": {
+            "type": "credit_card",
+            "installments": 3
+        },
+        "total_value": 2099
+    }
+]

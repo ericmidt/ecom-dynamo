@@ -1,0 +1,25 @@
+[
+    {
+        "_id": "dfc5a5b8-b13c-48bd-bb5b-47f5796d6aa9",
+        "name": "Smartphone XYZ",
+        "description": "Smartphone with 128GB, 6GB RAM, 48MP camera.",
+        "price": 1999,
+        "stock": 150,
+        "categories": [
+            "electronics"
+        ],
+        "images": [
+            "url_image1.jpg"
+        ],
+        "specifications": {
+            "brand": "BrandX",
+            "model": "XYZ",
+            "warranty": "12 months"
+        },
+        "registration_date": "2025-01-10T08:30:00Z",
+        "reviews": {
+            "average": 4,
+            "quantity": 125
+        }
+    }
+]

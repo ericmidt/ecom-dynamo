@@ -1,0 +1,30 @@
+[
+    {
+        "_id": "ffaf9637-f445-4b6c-b484-84dfb1a7f8e8",
+        "id_client": "client_1",
+        "items": [
+            {
+                "id_product": "dfc5a5b8-b13c-48bd-bb5b-47f5796d6aa9",
+                "nome_product": "Smartphone XYZ",
+                "quantity": 1,
+                "price_unit": 1999,
+                "data_added": "2025-01-31T09:00:00Z"
+            }
+        ],
+        "last_update": "2025-01-31T09:10:00Z"
+    },
+    {
+        "_id": "662ddc18-9ce5-4d0b-801e-746aa05ea39a",
+        "id_client": "client_2",
+        "items": [
+            {
+                "id_product": "dfc5a5b8-b13c-48bd-bb5b-47f5796d6aa9",
+                "nome_product": "Smartphone XYZ",
+                "quantity": 1,
+                "price_unit": 1999,
+                "data_added": "2025-01-31T09:00:00Z"
+            }
+        ],
+        "last_update": "2025-01-31T09:10:00Z"
+    }
+]
